@@ -6,6 +6,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 100px;
 }
 
 .text-primary{
@@ -30,9 +31,7 @@ nav li{
     margin-right: 50px;
 }
 
-.btn-primary{
- width: 120px;
- height: 40px;   
+.btn-primary{ 
 border: 0;
 border-radius: 5px;
 background: #FD6E0A;
@@ -41,4 +40,18 @@ font-style: normal;
 font-weight: 700;
 color: white;
 padding: 10px 10px;
+}
+.h{
+background-color:#FFF8F3;;
+}
+.banner{
+    padding: 30px 50px 30px 150px;
+    display: flex; /* making childs into in line*/
+    align-items: center;
+    justify-content: space-between;
+}
+.dp{
+ width: 400px;
+height: 500px;
+
 }
