@@ -7,6 +7,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0px 100px;
+
 }
 
 .text-primary {
@@ -26,6 +27,7 @@ nav>ul {
     align-items: center;
 }
 
+
 nav li {
     list-style: none;
     margin-right: 50px;
@@ -40,6 +42,7 @@ nav li {
     font-weight: 700;
     color: white;
     padding: 10px 10px;
+    
 }
 
 .header {
@@ -78,14 +81,67 @@ nav li {
     padding: 10px;
     text-align: center;
 }
-.details-container{
+
+.details-container {
     text-align: center;
     display: flex;
     justify-content: space-around;
-   
-}
-.What-I-Do{
-    text-align: center;
-    margin-top: 140px ;
+
 }
 
+.What-I-Do {
+    text-align: center;
+    margin-top: 140px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 40px 50px 40px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    width: 267px;
+    height: 377px;
+
+
+
+
+
+}
+
+.All-box {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 130px;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+
+
+
+
+}
+
+hr {
+    width: 800px;
+
+    height: 1px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+
+    width: 1200px;
+    
+}
+
+.title {
+    text-align: center;
+
+}
